@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.domain.pojo.GifData
+import com.example.domain.pojo.gif.GifData
 import com.example.giphy.databinding.ItemGifBinding
 
 class GifAdapter(private val clickListener: (GifData) -> Unit) : RecyclerView.Adapter<GifAdapter.ViewHolder>() {

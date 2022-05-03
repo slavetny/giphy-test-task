@@ -1,6 +1,6 @@
 package com.example.giphy.di
 
-import com.example.giphy.presentation.search.GifViewModel
+import com.example.giphy.presentation.viewmodel.GifViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

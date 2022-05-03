@@ -2,7 +2,7 @@ package com.example.data.repository
 
 import com.example.data.BuildConfig
 import com.example.data.network.GiphyService
-import com.example.domain.pojo.Gif
+import com.example.domain.pojo.gif.Gif
 import com.example.domain.repository.GifRepository
 
 class GifRepositoryImpl(private val giphyService: GiphyService) : GifRepository {

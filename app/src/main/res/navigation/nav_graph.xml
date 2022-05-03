@@ -9,6 +9,26 @@
         android:id="@+id/search_fragment"
         android:name="com.example.giphy.presentation.search.SearchFragment"
         android:label="Search Fragment"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_fragment_to_gif_fragment"
+            app:destination="@id/gif_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gif_fragment"
+        android:name="com.example.giphy.presentation.gif.GifFragment"
+        android:label="Gif Fragment"
+        tools:layout="@layout/fragment_gif">
+
+        <argument
+            android:name="url"
+            app:argType="string" />
+
+        <argument
+            android:name="title"
+            app:argType="string" />
+
+    </fragment>
 
 </navigation>

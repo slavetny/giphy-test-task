@@ -1,6 +1,6 @@
 package com.example.data.network
 
-import com.example.domain.pojo.Gif
+import com.example.domain.pojo.gif.Gif
 import retrofit2.http.GET
 import retrofit2.http.Query
 

@@ -9,7 +9,7 @@ android {
     defaultConfig {
         minSdk 26
         targetSdk 31
-        buildConfigField "String", "apiKey", "\"lxhQu0jAaN6XjaJWNChswEUXTfm7Qssr\""
+        buildConfigField "String", "apiKey", "\"api_key_here\""
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }

@@ -1,6 +1,6 @@
 package com.example.domain.usecase
 
-import com.example.domain.pojo.Gif
+import com.example.domain.pojo.gif.Gif
 import com.example.domain.repository.GifRepository
 
 class GetGifUseCase(private val gifRepository: GifRepository) {

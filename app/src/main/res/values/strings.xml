@@ -3,4 +3,6 @@
     <string name="enter_gif_name_hint">Enter gif name</string>
     <string name="search">Search</string>
     <string name="not_valid_search_request_error">Not Valid Request</string>
+    <string name="no_gifs_found_error">No Gifs Found</string>
+    <string name="open">Open</string>
 </resources>
